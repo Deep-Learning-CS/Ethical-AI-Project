@@ -1,0 +1,18 @@
+{
+  "original_records": 3822,
+  "processed_chunks": 4113,
+  "entity_stats": {
+    "total_entities": 31198,
+    "avg_entities_per_text": 7.585217602723073,
+    "most_common_entity_types": {
+      "LOC": 15126,
+      "ORG": 9224,
+      "PER": 6848
+    }
+  },
+  "semantic_role_stats": {
+    "total_predicates": 31349,
+    "avg_predicates_per_text": 7.62193046438123
+  },
+  "processing_time": 381.72870087623596
+}
