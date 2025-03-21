@@ -26,4 +26,10 @@ print(f"File saved as {csv_file}")
 manipulative_posts = spandf[spandf['manipulative'] == True]
 print(manipulative_posts.head())
 
+def return_span(spandf):
+    return spandf
+
+def return_textcl(techclass):
+    return techclass
+
 
