@@ -3,7 +3,7 @@ from transformers import AutoTokenizer
 import numpy as np
 
 # Load your dataset
-def optimize_context_windows(df, text_column='content', max_length=512, overlap=50):
+def optimize_context_windows(df, text_column='content', max_length=512, overlap=100):
     """
     Optimize context windows by splitting text into overlapping chunks that fit within
     transformer model context limits.
