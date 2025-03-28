@@ -1,0 +1,43 @@
+2025-03-28 01:49:50,032 - INFO - Using device: cuda
+2025-03-28 01:49:53,991 - INFO - Training dataset size: 2903
+2025-03-28 01:49:53,992 - INFO - Validation dataset size: 726
+2025-03-28 01:49:57,720 - INFO - Epoch 1 | Batch 0 | Loss: 2.7549
+2025-03-28 01:50:02,712 - INFO - Epoch 1 | Batch 50 | Loss: 2.5343
+2025-03-28 01:50:07,689 - INFO - Epoch 1 | Batch 100 | Loss: 2.7899
+2025-03-28 01:50:12,660 - INFO - Epoch 1 | Batch 150 | Loss: 2.5245
+2025-03-28 01:50:17,593 - INFO - Epoch 1 | Batch 200 | Loss: 2.3542
+2025-03-28 01:50:22,543 - INFO - Epoch 1 | Batch 250 | Loss: 2.4584
+2025-03-28 01:50:27,501 - INFO - Epoch 1 | Batch 300 | Loss: 2.8307
+2025-03-28 01:50:32,459 - INFO - Epoch 1 | Batch 350 | Loss: 2.7818
+2025-03-28 01:50:36,963 - INFO - Epoch 1 completed in 40.21 seconds
+2025-03-28 01:50:36,963 - INFO - Training Loss: 2.6433
+2025-03-28 01:50:36,963 - INFO - Validation Loss: 2.5649
+2025-03-28 01:50:36,963 - INFO - Validation Accuracy: 0.7700
+2025-03-28 01:50:36,963 - INFO - Validation F1: 0.8380
+2025-03-28 01:50:37,065 - INFO - Epoch 2 | Batch 0 | Loss: 2.7954
+2025-03-28 01:50:42,002 - INFO - Epoch 2 | Batch 50 | Loss: 2.3792
+2025-03-28 01:50:46,939 - INFO - Epoch 2 | Batch 100 | Loss: 2.2550
+2025-03-28 01:50:51,888 - INFO - Epoch 2 | Batch 150 | Loss: 2.8404
+2025-03-28 01:50:56,842 - INFO - Epoch 2 | Batch 200 | Loss: 2.4996
+2025-03-28 01:51:01,802 - INFO - Epoch 2 | Batch 250 | Loss: 2.3030
+2025-03-28 01:51:06,756 - INFO - Epoch 2 | Batch 300 | Loss: 2.3542
+2025-03-28 01:51:11,696 - INFO - Epoch 2 | Batch 350 | Loss: 2.5011
+2025-03-28 01:51:16,141 - INFO - Epoch 2 completed in 39.18 seconds
+2025-03-28 01:51:16,142 - INFO - Training Loss: 2.5346
+2025-03-28 01:51:16,142 - INFO - Validation Loss: 2.5778
+2025-03-28 01:51:16,142 - INFO - Validation Accuracy: 0.7741
+2025-03-28 01:51:16,142 - INFO - Validation F1: 0.8544
+2025-03-28 01:51:16,247 - INFO - Epoch 3 | Batch 0 | Loss: 2.1943
+2025-03-28 01:51:21,200 - INFO - Epoch 3 | Batch 50 | Loss: 2.4355
+2025-03-28 01:51:26,143 - INFO - Epoch 3 | Batch 100 | Loss: 2.6654
+2025-03-28 01:51:31,062 - INFO - Epoch 3 | Batch 150 | Loss: 3.2501
+2025-03-28 01:51:35,992 - INFO - Epoch 3 | Batch 200 | Loss: 2.4868
+2025-03-28 01:51:40,941 - INFO - Epoch 3 | Batch 250 | Loss: 2.3401
+2025-03-28 01:51:45,881 - INFO - Epoch 3 | Batch 300 | Loss: 2.3288
+2025-03-28 01:51:50,846 - INFO - Epoch 3 | Batch 350 | Loss: 2.4900
+2025-03-28 01:51:55,342 - INFO - Epoch 3 completed in 39.20 seconds
+2025-03-28 01:51:55,343 - INFO - Training Loss: 2.4030
+2025-03-28 01:51:55,343 - INFO - Validation Loss: 2.5293
+2025-03-28 01:51:55,343 - INFO - Validation Accuracy: 0.7920
+2025-03-28 01:51:55,343 - INFO - Validation F1: 0.8464
+2025-03-28 01:51:56,291 - INFO - Model saved to propaganda_detection_model_epochs3.pt

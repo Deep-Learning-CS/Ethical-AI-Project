@@ -1,0 +1,121 @@
+[
+  {
+    "id": "0bb0c7fa-101b-4583-a5f9-9d503339141c",
+    "content": "Новий огляд мапи DeepState від російського військового експерта, кухара путіна 2 розряду, спеціаліста по снарядному голоду та ректора музичної академії міноборони рф Євгєнія Пригожина. Пригожин прогнозує, що невдовзі настане день звільнення Криму і день розпаду росії. Каже, що передумови цього вже створені. * Відео взяли з каналу ФД. @ informnapalm",
+    "chunk_text": "Новий огляд мапи DeepState від російського військового експерта, кухара путіна 2 розряду, спеціаліста по снарядному голоду та ректора музичної академії міноборони рф Євгєнія Пригожина. Пригожин прогнозує, що невдовзі настане день звільнення Криму і день розпаду росії. Каже, що передумови цього вже створені. * Відео взяли з каналу ФД. @ informnapalm",
+    "token_length": 122,
+    "is_augmented": false,
+    "entities": [
+      {
+        "end_char": 26,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "ORG",
+        "start_char": 17,
+        "text": "DeepState"
+      },
+      {
+        "end_char": 78,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "PER",
+        "start_char": 72,
+        "text": "путіна"
+      },
+      {
+        "end_char": 183,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "PER",
+        "start_char": 166,
+        "text": "Євгєнія Пригожина"
+      },
+      {
+        "end_char": 247,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "LOC",
+        "start_char": 242,
+        "text": "Криму"
+      },
+      {
+        "end_char": 268,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "LOC",
+        "start_char": 263,
+        "text": "росії"
+      },
+      {
+        "end_char": 336,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "ORG",
+        "start_char": 334,
+        "text": "ФД"
+      }
+    ],
+    "entity_types": [
+      "ORG",
+      "PER",
+      "PER",
+      "LOC",
+      "LOC",
+      "ORG"
+    ],
+    "entity_count": 6,
+    "linked_entities": [
+      {
+        "end_char": 26,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "ORG",
+        "start_char": 17,
+        "text": "DeepState"
+      },
+      {
+        "end_char": 78,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "PER",
+        "start_char": 72,
+        "text": "путіна"
+      },
+      {
+        "end_char": 183,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "PER",
+        "start_char": 166,
+        "text": "Євгєнія Пригожина"
+      },
+      {
+        "end_char": 247,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "LOC",
+        "start_char": 242,
+        "text": "Криму"
+      },
+      {
+        "end_char": 268,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "LOC",
+        "start_char": 263,
+        "text": "росії"
+      },
+      {
+        "end_char": 336,
+        "kb_description": null,
+        "kb_id": null,
+        "label": "ORG",
+        "start_char": 334,
+        "text": "ФД"
+      }
+    ],
+    "semantic_predicates": [
+      {
+        "arguments": [
+          {
+            "position": 

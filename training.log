@@ -1,0 +1,101 @@
+2025-03-27 17:24:06,813 - INFO - Using device: mps
+2025-03-27 17:24:07,983 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:24:43,276 - INFO - Using device: mps
+2025-03-27 17:24:43,921 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:36:31,046 - INFO - Using device: mps
+2025-03-27 17:36:46,958 - INFO - Using device: mps
+2025-03-27 17:36:48,052 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:38:21,073 - INFO - Using device: mps
+2025-03-27 17:38:21,639 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:39:26,665 - INFO - Using device: mps
+2025-03-27 17:39:27,164 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:41:12,381 - INFO - Using device: mps
+2025-03-27 17:41:12,924 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:42:15,935 - INFO - Using device: mps
+2025-03-27 17:42:16,518 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:43:34,418 - INFO - Using device: mps
+2025-03-27 17:43:35,576 - INFO - Loaded dataset with 3629 samples
+2025-03-27 17:44:39,985 - INFO - Using device: mps
+2025-03-27 17:44:40,524 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:05:49,023 - INFO - Using device: mps
+2025-03-27 19:05:49,580 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:08:31,830 - INFO - Using device: mps
+2025-03-27 19:08:32,366 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:09:59,968 - INFO - Using device: mps
+2025-03-27 19:10:01,406 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:11:28,349 - INFO - Using device: mps
+2025-03-27 19:11:28,974 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:12:23,761 - INFO - Using device: mps
+2025-03-27 19:12:24,291 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:13:20,952 - INFO - Using device: mps
+2025-03-27 19:13:21,513 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:14:14,532 - INFO - Using device: mps
+2025-03-27 19:14:15,043 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:15:08,080 - INFO - Using device: mps
+2025-03-27 19:15:08,612 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:15:30,748 - INFO - Using device: mps
+2025-03-27 19:15:31,260 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:16:33,366 - INFO - Using device: mps
+2025-03-27 19:16:33,978 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:18:38,617 - INFO - Using device: mps
+2025-03-27 19:18:39,515 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:19:52,454 - INFO - Using device: mps
+2025-03-27 19:19:52,952 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:24:36,326 - INFO - Using device: mps
+2025-03-27 19:24:37,820 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:30:47,454 - INFO - Using device: mps
+2025-03-27 19:30:48,405 - INFO - Loaded dataset with 3629 samples
+2025-03-27 19:30:55,891 - INFO - Epoch 1 | Batch 0 | Loss: 2.7718
+2025-03-27 19:31:28,671 - INFO - Epoch 1 | Batch 10 | Loss: 2.7425
+2025-03-27 19:32:02,320 - INFO - Epoch 1 | Batch 20 | Loss: 2.6649
+2025-03-27 19:32:34,412 - INFO - Epoch 1 | Batch 30 | Loss: 2.5379
+2025-03-27 19:32:58,224 - INFO - Epoch 1 | Batch 40 | Loss: 2.3589
+2025-03-27 19:33:22,294 - INFO - Epoch 1 | Batch 50 | Loss: 2.7332
+2025-03-27 19:33:46,433 - INFO - Epoch 1 | Batch 60 | Loss: 2.5428
+2025-03-27 19:34:10,411 - INFO - Epoch 1 | Batch 70 | Loss: 2.4172
+2025-03-27 19:34:35,382 - INFO - Epoch 1 | Batch 80 | Loss: 2.7725
+2025-03-27 19:34:59,318 - INFO - Epoch 1 | Batch 90 | Loss: 2.6934
+2025-03-27 19:35:23,341 - INFO - Epoch 1 | Batch 100 | Loss: 2.5445
+2025-03-27 19:35:47,200 - INFO - Epoch 1 | Batch 110 | Loss: 2.6372
+2025-03-27 19:36:10,565 - INFO - Epoch 1 | Batch 120 | Loss: 2.3886
+2025-03-27 19:36:34,594 - INFO - Epoch 1 | Batch 130 | Loss: 2.5964
+2025-03-27 19:36:58,246 - INFO - Epoch 1 | Batch 140 | Loss: 2.5117
+2025-03-27 19:37:22,555 - INFO - Epoch 1 | Batch 150 | Loss: 2.6572
+2025-03-27 19:37:46,878 - INFO - Epoch 1 | Batch 160 | Loss: 2.7590
+2025-03-27 19:38:11,058 - INFO - Epoch 1 | Batch 170 | Loss: 2.8658
+2025-03-27 19:38:34,866 - INFO - Epoch 1 | Batch 180 | Loss: 2.4644
+2025-03-27 19:38:58,681 - INFO - Epoch 1 | Batch 190 | Loss: 2.2926
+2025-03-27 19:39:23,903 - INFO - Epoch 1 | Batch 200 | Loss: 2.4406
+2025-03-27 19:39:47,885 - INFO - Epoch 1 | Batch 210 | Loss: 2.3161
+2025-03-27 19:40:11,258 - INFO - Epoch 1 | Batch 220 | Loss: 2.5640
+2025-03-27 19:40:35,218 - INFO - Epoch 1 | Batch 230 | Loss: 2.3182
+2025-03-27 19:40:58,872 - INFO - Epoch 1 | Batch 240 | Loss: 2.7662
+2025-03-27 19:41:22,742 - INFO - Epoch 1 | Batch 250 | Loss: 2.4244
+2025-03-27 19:41:50,852 - INFO - Epoch 1 | Batch 260 | Loss: 2.7230
+2025-03-27 19:42:22,773 - INFO - Epoch 1 | Batch 270 | Loss: 2.4440
+2025-03-27 19:42:52,907 - INFO - Epoch 1 | Batch 280 | Loss: 2.8486
+2025-03-27 19:43:22,236 - INFO - Epoch 1 | Batch 290 | Loss: 2.5391
+2025-03-27 19:43:48,006 - INFO - Epoch 1 | Batch 300 | Loss: 2.5903
+2025-03-27 19:44:24,521 - INFO - Epoch 1 | Batch 310 | Loss: 2.4801
+2025-03-27 19:44:53,094 - INFO - Epoch 1 | Batch 320 | Loss: 2.5854
+2025-03-27 19:45:25,486 - INFO - Epoch 1 | Batch 330 | Loss: 2.5282
+2025-03-27 19:46:02,628 - INFO - Epoch 1 | Batch 340 | Loss: 3.2228
+2025-03-27 19:46:33,237 - INFO - Epoch 1 | Batch 350 | Loss: 2.7988
+2025-03-27 19:47:06,982 - INFO - Epoch 1 | Batch 360 | Loss: 2.5388
+2025-03-27 19:47:34,895 - INFO - Epoch 1 | Batch 370 | Loss: 2.2648
+2025-03-27 19:48:06,711 - INFO - Epoch 1 | Batch 380 | Loss: 2.1672
+2025-03-27 19:48:45,096 - INFO - Epoch 1 | Batch 390 | Loss: 2.3992
+2025-03-27 19:49:22,953 - INFO - Epoch 1 | Batch 400 | Loss: 2.5667
+2025-03-27 19:50:01,720 - INFO - Epoch 1 | Batch 410 | Loss: 2.7353
+2025-03-27 19:50:39,809 - INFO - Epoch 1 | Batch 420 | Loss: 2.9842
+2025-03-27 19:51:17,827 - INFO - Epoch 1 | Batch 430 | Loss: 2.3075
+2025-03-27 19:51:53,110 - INFO - Epoch 1 | Batch 440 | Loss: 2.4121
+2025-03-27 19:52:24,019 - INFO - Epoch 1 | Batch 450 | Loss: 2.2826
+2025-03-27 19:52:32,099 - INFO - Epoch 1 completed | Avg Loss: 2.6047
+2025-03-27 19:52:34,951 - INFO - Epoch 2 | Batch 0 | Loss: 3.3489
+2025-03-27 19:53:01,581 - INFO - Epoch 2 | Batch 10 | Loss: 2.6920
+2025-03-27 19:53:31,798 - INFO - Epoch 2 | Batch 20 | Loss: 2.8366
+2025-03-27 19:54:00,954 - INFO - Epoch 2 | Batch 30 | Loss: 2.4511
+2025-03-27 19:54:34,811 - INFO - Epoch 2 | Batch 40 | Loss: 2.5771
+2025-03-27 19:55:07,108 - INFO - Epoch 2 | Batch 50 | Loss: 3.0025
+2025-03-27 19:55:42,210 - INFO - Epoch 2 | Batch 60 | Loss: 2.4114
