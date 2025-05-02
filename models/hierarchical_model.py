@@ -31,7 +31,7 @@ class HierarchicalAttentionModel(nn.Module):
         self.contrastive_projection = nn.Linear(self.bert.config.hidden_size, 128)
         
         # Classifier
-        self.classifier = nn.Linear(self.bert.config.hidden_size, num_classes)
+        self.classifier = nn.Linear(self.bert.config.hidden_size, 10)
 
     def forward(self, input_ids, attention_mask):
         # Word-level features from DistilBert (unmodified)
@@ -67,9 +67,10 @@ class HierarchicalAttentionModel(nn.Module):
         
         # Classification
         logits = self.classifier(adapted)
-        
+        logits = torch.sigmoid(logits)
+
         return {
-            'logits': logits,
-            'contrastive_emb': contrastive_emb,
-            'word_attentions': attn_weights
-        }
+                'logits': logits,
+                'contrastive_emb': contrastive_emb,
+                'word_attentions': attn_weights
+            }

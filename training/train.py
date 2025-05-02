@@ -45,7 +45,7 @@ def main():
     # Model setup
     model = HierarchicalAttentionModel(num_classes=2).to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
-    criterion = torch.nn.CrossEntropyLoss()
+    criterion = torch.nn.BCEWithLogitsLoss()
 
     # Training loop
     for epoch in range(3):  # Example: 3 epochs
@@ -65,19 +65,24 @@ def main():
             logits = outputs['logits']
             print(f"Logits shape: {logits.shape}, Labels shape: {inputs['labels'].shape}")
 
-            # Explicitly make sure labels are 1D for CrossEntropyLoss
-            labels = inputs['labels']
-            if labels.dim() > 1:
-                labels = labels.squeeze(-1)
+            # For multi-label, ensure labels are float for BCEWithLogitsLoss
+            labels = inputs['labels'].float()
 
             # Make sure logits are 2D [batch_size, num_classes]
             if logits.dim() > 2:
                 logits = logits.view(logits.size(0), -1)
 
             # Now try the loss calculation
+            labels = inputs['labels'].float()
             loss = criterion(logits, labels)
             loss.backward()
             optimizer.step()
+
+            with torch.no_grad():
+                predictions = (outputs['logits'] > 0.5).float()
+                correct_predictions = (predictions == inputs['labels']).float()
+                accuracy = correct_predictions.sum() / correct_predictions.numel()
+                logger.info(f"Batch accuracy: {accuracy:.4f}")
             
             total_loss += loss.item()
             

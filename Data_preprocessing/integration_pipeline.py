@@ -149,6 +149,18 @@ def run_advanced_preprocessing_pipeline(data_source='text_classification', sampl
         df = apply_semantic_role_labeling(df)
         save_checkpoint(df, checkpoint_dir, "step3_semantic_labeling")
     
+    technique_columns = [
+        'loaded_language', 'glittering_generalities', 'euphoria', 
+        'appeal_to_fear', 'fud', 'bandwagon', 'thought_terminating_cliche',
+        'whataboutism', 'cherry_picking', 'straw_man'
+    ]
+
+    # Ensure label columns are preserved through all preprocessing stages
+    # Add this check before each save_checkpoint call
+    for col in technique_columns:
+        if col not in df.columns:
+            df[col] = 0
+
     print(f"Completed in {time.time() - step_start:.2f} seconds")
     
     # Step 4: Apply contextual word replacement for data augmentation if requested

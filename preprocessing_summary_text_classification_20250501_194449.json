@@ -1,0 +1,30 @@
+{
+  "original_records": 3629,
+  "processed_chunks": 4292,
+  "cleaning_stats": {
+    "cleaned_enabled": true,
+    "removed_outliers": 0,
+    "fixed_mislabeled": 0,
+    "removed_low_quality": 0
+  },
+  "augmentation_stats": {
+    "augmentation_enabled": true,
+    "augmented_texts": 3629,
+    "augmentations_per_text": 2
+  },
+  "entity_stats": {
+    "total_entities": 39733,
+    "avg_entities_per_text": 9.257455731593662,
+    "most_common_entity_types": {
+      "LOC": 19280,
+      "ORG": 11733,
+      "PER": 8720
+    }
+  },
+  "semantic_role_stats": {
+    "total_predicates": 39641,
+    "avg_predicates_per_text": 9.236020503261882
+  },
+  "processing_time": 2.934274196624756,
+  "checkpoints_used": true
+}

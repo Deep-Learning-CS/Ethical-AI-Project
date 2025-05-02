@@ -7,7 +7,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 from tqdm import tqdm
-import umap
+import umap.umap_ as umap
 import torch.nn.functional as F
 import os
 import seaborn as sns
